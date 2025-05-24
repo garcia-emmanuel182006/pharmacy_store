@@ -1,0 +1,53 @@
+:root {
+    --main-color: #B9F3FC;
+    --secondary-color: #AEE2FF;
+    --background-color: #F3F8FF;
+    --extra-color: #FEDEFF;
+    --font-color: #11324D;
+    --white-font-color: #93C6E7;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    background-color: var(--background-color);
+    color: var(--font-color);
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.12em;
+
+}
+
+/* GENERAL SETTINGS */
+
+a {
+    text-decoration: none;
+    color: var(--font-color);
+}
+
+/* HEADER STYLE */
+
+header {
+    position: sticky;
+    top: 0;
+    padding: .2rem;
+    background-color: var(--main-color);
+}
+
+.header-nav_bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header-nav_list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-grow: .9;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
